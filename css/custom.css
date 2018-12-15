@@ -1,0 +1,24 @@
+body {
+	margin: 20px;
+}
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 130px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+}
+
+a.back-to-top {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
